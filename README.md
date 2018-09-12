@@ -84,7 +84,9 @@ The `dist` directory with `index.html` can be exported and it should work on mod
 
 https://kenokabetech.github.io/demo/esm-bundlerless-react/dist/index.html
 
-![dist-react](https://kenokabetech.github.io/img/ts-react-electron/deploy-react.png)
+![dist-react](https://kenokabetech.github.io/img/ts-react-electron/reactdeploy.png)
+
+
 
 Firefox should be able to run the local `dist/index.html` file directly with no problem, Chrome generates an error with a security issue.
 
