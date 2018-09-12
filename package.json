@@ -1,0 +1,34 @@
+{
+  "name": "esm-bundlerless-react",
+  "version": "0.0.1",
+  "description": "ESM (ES6 Modules) React development tool without bundlers(webpack, Browserify)",
+  "main": "./main_.js",
+  "scripts": {
+    "test": "electron ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenokabe/esm-bundlerless-react.git"
+  },
+  "keywords": [
+    "esm",
+    "module"
+  ],
+  "author": "Ken Okabe",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chokidar": "*",
+    "electron": "^3.0.0-beta.10",
+    "esm": "*",
+    "typescript": "*",
+    "@types/react": "^16.4.9",
+    "@types/react-dom": "^16.0.7",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "bugs": {
+    "url": "https://github.com/kenokabe/esm-bundlerless-react/issues"
+  },
+  "homepage": "https://github.com/kenokabe/esm-bundlerless-react#readme"
+}
