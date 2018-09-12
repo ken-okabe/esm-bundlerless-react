@@ -1,4 +1,5 @@
 
+
 # esm-bundlerless-react
 
 ESM (ES6 Modules) Bundlerless Front-end Development tool
@@ -8,7 +9,7 @@ ESM (ES6 Modules)  simplifies JavaScript application development since there is 
 **This article will show you how you can develop and deploy JavaScript front-end applications with ES modules in the browser today without bundlers such as webpack/Browserify.**
 
 This project provides a basic concept and a minimal prototype with React.  
-* It's recommended to read https://github.com/kenokabe/esm-bundlerless for the most simple project without React prior to this article.*
+*It's recommended to read https://github.com/kenokabe/esm-bundlerless for the most simple project without React prior to this article.*
 
 
 ## ES6 Modules support in modern browsers today
@@ -22,9 +23,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/imp
 For React JSX applications, there is a need to transpile JSX to vanilla JavaScript, and until now we needed to use webpack+babel, that has been a very complicated setup.  
 Amazingly TypeScript has an ability to transpile JSX(TSX) to JS.  Hence, as long as sticking to TypeScript, another transpiler such as babel is not necessary.  
 
-**index.tsx**
+**index.tsx**  
 ![Screenshot from 2018-08-19 16-41-42.png](https://kenokabetech.github.io/img/ts-react-electron/Screenshot%20from%202018-08-19%2016-41-42.png)  
-**index.js**
+**index.js**  
 ![Screenshot from 2018-08-19 16-42-15.png](https://kenokabetech.github.io/img/ts-react-electron/Screenshot%20from%202018-08-19%2016-42-15.png)
 
 - [Electron 3.0](https://electronjs.org/)  
@@ -34,7 +35,7 @@ While I commented there, the member of the team of Electron and the developer of
 
 ![esm-dependency.png](https://kenokabetech.github.io/img/ts-react-electron/esm-dependency.png)
 
-With React,
+With React,  
 ![Screenshot from 2018-08-19 16-52-56.png](https://kenokabetech.github.io/img/ts-react-electron/Screenshot%20from%202018-08-19%2016-52-56.png)
 
 
