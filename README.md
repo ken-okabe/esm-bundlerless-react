@@ -69,6 +69,12 @@ Since React developers currently depend on webpack/browserify. React16.* has not
 React npm packages are necessary either way because TypeScript @types needs them.  
 On deployment, the npm dependency should be replaced to the native esm react modules, so here we need to map the ESM path.
 
+TypeScript transpile process does not support this maping feature. See:
+
+https://github.com/Microsoft/TypeScript/issues/16640
+
+https://github.com/Microsoft/TypeScript/issues/10866
+
 
 ## Automatic reload and clean console log in a child window of Electron
 
